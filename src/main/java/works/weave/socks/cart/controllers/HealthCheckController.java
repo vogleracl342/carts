@@ -38,6 +38,7 @@ public class HealthCheckController {
        } catch (Exception e) {
           database.setStatus("err");
        }
+       //test comment
        
 
        healthChecks.add(app);
